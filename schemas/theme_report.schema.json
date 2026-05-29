@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boldr Theme Report",
+  "type": "object",
+  "required": ["window_start", "window_end", "themes"],
+  "properties": {
+    "window_start": {"type": "string", "format": "date"},
+    "window_end": {"type": "string", "format": "date"},
+    "themes": {"type": "array", "items": {"type": "object"}}
+  },
+  "additionalProperties": true
+}
+

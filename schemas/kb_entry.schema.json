@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boldr KB Entry",
+  "type": "object",
+  "required": ["slug", "title", "domain", "themes", "sources", "last_verified", "supersedes", "status", "body"],
+  "properties": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "enum": ["spec", "pricing", "policy", "faq", "persona"]},
+    "themes": {"type": "array", "items": {"type": "string"}},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "last_verified": {"type": "string", "format": "date"},
+    "supersedes": {"type": "array", "items": {"type": "string"}},
+    "status": {"type": "string", "enum": ["active", "stale", "draft"]},
+    "body": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}
+

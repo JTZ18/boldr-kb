@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boldr Agent Result",
+  "type": "object",
+  "required": ["artifact_type", "task_type", "status", "branch", "changed_files", "validation", "summary"],
+  "properties": {
+    "artifact_type": {"const": "boldr.agent_result"},
+    "task_type": {"type": "string"},
+    "status": {"type": "string", "enum": ["succeeded", "failed", "needs_review"]},
+    "branch": {"type": "string"},
+    "commit_sha": {"type": ["string", "null"]},
+    "changed_files": {"type": "array", "items": {"type": "string"}},
+    "validation": {
+      "type": "object",
+      "required": ["status", "commands"],
+      "properties": {
+        "status": {"type": "string", "enum": ["passed", "failed", "not_run"]},
+        "commands": {"type": "array", "items": {"type": "string"}},
+        "errors": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "summary": {"type": "string"}
+  },
+  "additionalProperties": true
+}
+

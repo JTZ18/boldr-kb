@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boldr Brief",
+  "type": "object",
+  "required": ["period", "summary", "recommendations"],
+  "properties": {
+    "period": {"type": "string"},
+    "summary": {"type": "string"},
+    "recommendations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
+

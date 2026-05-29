@@ -1,0 +1,17 @@
+{
+  "artifact_type": "boldr.agent_result",
+  "task_type": "kb-drafting",
+  "status": "succeeded",
+  "branch": "agent/kb-drafting/gap-2026-05-29-example",
+  "commit_sha": "0000000000000000000000000000000000000000",
+  "changed_files": ["kb/faqs/can-i-change-engraving-text-after-ordering.md", "kb/index.md"],
+  "validation": {
+    "status": "passed",
+    "commands": [
+      "python scripts/render_index.py --check",
+      "python scripts/validate_kb.py"
+    ]
+  },
+  "summary": "Drafted a KB entry for the resolved engraving text change gap."
+}
+

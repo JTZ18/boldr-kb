@@ -1,0 +1,9 @@
+{
+  "gap_id": "gap_2026-05-29_example",
+  "customer_question": "Can I change engraving text after ordering?",
+  "missing_info": ["post-order engraving edit policy"],
+  "themes_detected": ["engraving", "order_changes"],
+  "resolution_text": "Engraving text can be changed before the engraving job starts. Support must confirm status first.",
+  "source_note": "Support macro ENG-CHANGE-001"
+}
+

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boldr Persona",
+  "type": "object",
+  "required": ["slug", "title", "axis", "signals"],
+  "properties": {
+    "slug": {"type": "string"},
+    "title": {"type": "string"},
+    "axis": {"type": "string"},
+    "signals": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
+
