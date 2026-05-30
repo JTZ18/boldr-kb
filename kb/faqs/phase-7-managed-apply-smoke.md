@@ -9,7 +9,7 @@ sources:
   - phase7-apply-smoke-2026-05-30
 last_verified: 2026-05-30
 supersedes: []
-status: active
+status: stale
 ---
 
 This synthetic entry validates that approved KB apply work is performed by the managed Multica agent runtime.
