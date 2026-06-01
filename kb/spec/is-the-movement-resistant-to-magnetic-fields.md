@@ -5,11 +5,22 @@ domain: spec
 themes:
 - materials_safety
 - product_general
+- product_safety
+- medical_environment
+- watch_materials
 sources:
 - gap_2026-05-17_185509
-last_verified: '2026-05-17'
+- gap_2026-06-01_0db9e5
+last_verified: '2026-06-01'
 supersedes: []
 status: active
 ---
 
-Yes. The titanium case is non-ferromagnetic and MRI-safe up to 3 Tesla. The FKM rubber strap contains no metal components. If you work around MRI equipment, we recommend removing the watch above 1.5T as a precaution and following your hospital's policy.
+Boldr field watches do not use magnetic clasps or magnetized fasteners. The titanium case is non-ferromagnetic and safe in strong magnetic fields.
+
+However, standard watch movements contain small metal components that may interact with magnetic fields, and Boldr watches as a whole are not certified MRI-safe. If you work around MRI equipment or medical imaging environments:
+
+- Remove the watch before entering the MRI room.
+- Follow your facility's safety policy.
+
+The FKM rubber strap contains no metal components.
