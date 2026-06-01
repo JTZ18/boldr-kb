@@ -1,10 +1,10 @@
 {
   "theme_slug": "vegan_friendly",
   "topic": "vegan_friendly",
-  "ran_at": "2026-06-01T07:21:02.912Z",
+  "ran_at": "2026-06-01T07:21:55.133Z",
   "report": {
     "theme_slug": "vegan_friendly",
-    "ran_at": "2026-06-01T07:21:02.912Z",
+    "ran_at": "2026-06-01T07:21:55.133Z",
     "topic": "vegan_friendly",
     "external_mentions": 0,
     "top_sources": [],
@@ -37,5 +37,5 @@
   },
   "window_start": "2026-05-01",
   "window_end": "2026-05-31",
-  "created_at": "2026-06-01T07:27:06Z"
+  "created_at": "2026-06-01T07:27:58Z"
 }
