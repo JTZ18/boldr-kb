@@ -1,0 +1,41 @@
+{
+  "theme_slug": "sustainable_materials_accessories",
+  "topic": "Sustainable Materials & Accessories",
+  "ran_at": "2026-06-07T04:00:47.027Z",
+  "report": {
+    "theme_slug": "sustainable_materials_accessories",
+    "ran_at": "2026-06-07T04:00:47.027Z",
+    "topic": "Sustainable Materials & Accessories",
+    "external_mentions": 0,
+    "top_sources": [],
+    "snippets": [],
+    "raw_emit": {
+      "fallback_used": true,
+      "fallback_reason": "last30days failed: LAST30DAYS_SCRIPT env var is not set",
+      "plan": {
+        "topic": "Sustainable Materials & Accessories",
+        "search_terms": [
+          "Sustainable Materials & Accessories",
+          "sustainable materials accessories",
+          "Boldr Sustainable Materials & Accessories"
+        ],
+        "subreddits": [
+          "Watches"
+        ],
+        "related_handles": [],
+        "notes": "Managed sentiment planning did not complete inside the workflow window; generated a deterministic fallback plan."
+      }
+    }
+  },
+  "comparison": {
+    "theme_slug": "sustainable_materials_accessories",
+    "internal_frequency": 1,
+    "external_mentions": 0,
+    "verdict": "insufficient_data",
+    "reasoning": "Managed sentiment comparison did not complete inside the workflow window, so the workflow recorded an insufficient-data comparison.",
+    "suggested_action": "Review the managed agent run before taking action."
+  },
+  "window_start": "2026-05-01",
+  "window_end": "2026-05-31",
+  "created_at": "2026-06-07T04:06:51Z"
+}
