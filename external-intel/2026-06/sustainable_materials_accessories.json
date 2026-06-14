@@ -1,11 +1,8 @@
 {
-  "theme_slug": "sustainable_materials_accessories",
-  "topic": "Sustainable Materials & Accessories",
-  "ran_at": "2026-06-07T04:00:47.027Z",
   "report": {
     "theme_slug": "sustainable_materials_accessories",
-    "ran_at": "2026-06-07T04:00:47.027Z",
-    "topic": "Sustainable Materials & Accessories",
+    "ran_at": "2026-06-14T04:00:46.910Z",
+    "topic": "Sustainable Materials and Accessories",
     "external_mentions": 0,
     "top_sources": [],
     "snippets": [],
@@ -13,17 +10,32 @@
       "fallback_used": true,
       "fallback_reason": "last30days failed: LAST30DAYS_SCRIPT env var is not set",
       "plan": {
-        "topic": "Sustainable Materials & Accessories",
+        "topic": "Sustainable Materials and Accessories",
         "search_terms": [
-          "Sustainable Materials & Accessories",
-          "sustainable materials accessories",
-          "Boldr Sustainable Materials & Accessories"
+          "sustainable watch accessories eco-friendly materials",
+          "vegan leather watch strap alternatives",
+          "recycled materials watch bands Boldr",
+          "eco-friendly watch accessories microbrand",
+          "sustainable packaging watch industry",
+          "plant-based watch strap materials",
+          "recycled ocean plastic watch accessories",
+          "biodegradable watch band materials"
         ],
         "subreddits": [
-          "Watches"
+          "r/sustainablefashion",
+          "r/zerowaste",
+          "r/ethicalfashion",
+          "r/Watches",
+          "r/watchmaking"
         ],
-        "related_handles": [],
-        "notes": "Managed sentiment planning did not complete inside the workflow window; generated a deterministic fallback plan."
+        "related_handles": [
+          "@BoldrSupply",
+          "@WatchBandits",
+          "@EthicalWatchCo",
+          "@Watchfinder",
+          "@Fratoq"
+        ],
+        "notes": "Focus on microbrand watch community sentiment around sustainability claims. Check r/Watches watch strap recommendation threads and r/sustainablefashion for cross-pollination between watch enthusiasts and eco-conscious consumers. Search for brand-specific mentions of Boldr and competitor sustainable offerings. Flag greenwashing skepticism as a separate signal from genuine sustainability interest."
       }
     }
   },
@@ -32,10 +44,7 @@
     "internal_frequency": 1,
     "external_mentions": 0,
     "verdict": "insufficient_data",
-    "reasoning": "Managed sentiment comparison did not complete inside the workflow window, so the workflow recorded an insufficient-data comparison.",
-    "suggested_action": "Review the managed agent run before taking action."
-  },
-  "window_start": "2026-05-01",
-  "window_end": "2026-05-31",
-  "created_at": "2026-06-07T04:06:51Z"
+    "reasoning": "External sentiment pipeline fell back to plan-only mode (LAST30DAYS_SCRIPT not configured), producing zero actual snippets. Internal signal is a single customer inquiry — insufficient volume for any directional comparison. No actionable divergence or alignment identified.",
+    "suggested_action": "Configure LAST30DAYS_SCRIPT for the external sentiment pipeline before next run. No KB or product action warranted on this theme until real external data is collected."
+  }
 }
